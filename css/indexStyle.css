@@ -9,7 +9,79 @@
     font-size: 23px;
     font-family: var(--font1);
 }
-
-
-
-
+nav {
+    display: flex;
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    text-align:center;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    font-family: var(--font2);
+}
+.nav-left {
+    width: 30%;
+    /* border: 2px solid green; */
+}
+.nav-right {
+    display: flex;
+    width: 85%;
+}
+.navigation-menu {
+    margin-right: 155px;
+}
+.navigation-menu ul{
+    display: flex;
+    justify-content: space-between;
+    width: 550px;
+    /* border: 2px solid red; */
+}
+.navigation-menu ul li {
+    list-style: none;
+}
+.user-login {
+    display: flex;
+    justify-content: space-between;
+    width: 173px;
+    /* border: 2px solid blue; */
+}
+.user-login > div{
+    border: 1px solid black; 
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+}
+.crousel {
+    background-color: #D1E2E9;
+    width: 100%;
+    height: 500px;
+    position: relative;
+    font-family: var(--font1);
+}
+.crousel .imageText {
+    position: absolute;
+    left: 100px;
+    bottom: 188px;
+}
+.crousel img {
+    position: relative;
+    left: 145px;
+    height: 500px;
+    float: right;
+}
+.button {
+    display: flex;
+}
+.btn {
+    padding: 10px;
+    border: 1px solid black;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.first-btn {
+    background-color: black;
+    color: white;
+}
