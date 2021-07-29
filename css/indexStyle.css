@@ -1,3 +1,4 @@
+/*offerBar styling starts here*/
 .offerBar {
     width: 100%;
     height: 35px;
@@ -9,6 +10,9 @@
     font-size: 23px;
     font-family: var(--font1);
 }
+/*offerBar styling ends here*/
+
+/*navigationBar styling starts here*/
 nav {
     display: flex;
     /* border: 2px solid red; */
@@ -67,6 +71,9 @@ nav {
     position: relative;
     bottom: 12px;
 }
+/*navigationBar styling ends here*/
+
+/*crousel styling starts here */
 .crousel {
     background-color: #D1E2E9;
     width: 100%;
@@ -106,6 +113,10 @@ nav {
 .font2 {
     font-family: var(--font2);
 }
+/*crousel styling ends here */
+
+
+/* shopping cards styling starts here */
 .shoppingCard {
     width: 100%;
     height: 400px;
@@ -125,8 +136,30 @@ nav {
     width: 100%;
     height: 300px;
 }
-.genderWise-card img {
-    width: 300px;
-    height: 200px;
-    border-radius: 10px;
+.genderWise-card {
+    position: relative;
 }
+.imageText1 {
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    z-index: 20;
+}
+.imageText2 {
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    z-index: 20;
+}
+.imageText3 {
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    z-index: 20;
+}
+.genderWise-card img {
+    width: 383px;
+    height: 229px;
+    border-radius: 5px
+}
+/*shopping cards styling ends here */
