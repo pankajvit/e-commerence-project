@@ -40,7 +40,7 @@ nav {
 .navigation-menu ul{
     display: flex;
     justify-content: space-between;
-    width: 550px;
+    width: 465px;
     /* border: 2px solid red; */
 }
 .navigation-menu ul li {
@@ -49,15 +49,23 @@ nav {
 .user-login {
     display: flex;
     justify-content: space-between;
-    width: 173px;
+    width: 145px;
     /* border: 2px solid blue; */
 }
 .user-login > div{
     border: 1px solid black; 
     border-radius: 50%;
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
     margin-top: 10px;
+}
+.user-login > div:hover {
+    background-color: pink;
+    color: black;
+}
+.icon-adjustment {
+    position: relative;
+    bottom: 12px;
 }
 .crousel {
     background-color: #D1E2E9;
