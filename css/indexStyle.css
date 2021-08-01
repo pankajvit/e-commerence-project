@@ -177,6 +177,25 @@ nav {
     margin-right: 10px;
     font-family: var(--font2);
 }
+.trendingProduct{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 20px;
+}
+.trendingProductCard img {
+    width: 240px;
+    height: 250px;
+    margin-bottom: 20px;
+}
+.trendingProductCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ratingStar {
+    color: yellow;
+}
 /*productFeaturing section ends here */
 
 
