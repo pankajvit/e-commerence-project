@@ -192,10 +192,12 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: var(--font1);
 }
 .ratingStar {
     color: yellow;
 }
+
 /*productFeaturing section ends here */
 
 
