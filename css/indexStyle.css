@@ -197,7 +197,45 @@ nav {
 .ratingStar {
     color: yellow;
 }
-
+.collectionWiseCategory {
+    width: 100%;
+    height: 550px;
+    border: 2px solid red;
+    padding: 30px 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.collectionWiseCard {
+    position: relative;
+}
+.textOnImage {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+}
+.popularProductImg {
+    width: 430px;
+    height: 470px;
+}
+.winterCollectionImg {
+    width: 100px;
+    height: 150px;
+}
+.summerCollectionImg {
+    width: 100px;
+    height: 150px;
+}
+.springSaleImg {
+    width: 100px;
+    height: 150px;
+}
+.second-partition {
+    display: flex;
+    flex-direction: column;
+}
+.second-partition-1 {
+    display: flex;
+}
 /*productFeaturing section ends here */
 
 
