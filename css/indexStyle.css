@@ -200,10 +200,10 @@ nav {
 .collectionWiseCategory {
     width: 100%;
     height: 550px;
-    border: 2px solid red;
-    padding: 30px 50px;
+    /* border: 2px solid red; */
+    padding: 20px 20px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 .collectionWiseCard {
     position: relative;
@@ -212,22 +212,27 @@ nav {
     position: absolute;
     top: 50%;
     left: 30%;
+    text-align: center;
 }
 .popularProductImg {
-    width: 430px;
-    height: 470px;
+    width: 390px;
+    height: 430px;
+    margin: 0px 20px;
 }
 .winterCollectionImg {
-    width: 100px;
-    height: 150px;
+    width: 380px;
+    height: 225px;
+    margin: 0px 20px;
 }
 .summerCollectionImg {
-    width: 100px;
-    height: 150px;
+    width: 380px;
+    height: 225px;
+    margin: 0px 20px;
 }
 .springSaleImg {
-    width: 100px;
-    height: 150px;
+    width: 798px;
+    height: 201px;
+    margin: 0px 20px;
 }
 .second-partition {
     display: flex;
