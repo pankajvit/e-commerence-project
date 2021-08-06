@@ -254,7 +254,27 @@ nav {
     align-items: center;
     justify-content: center;
 }
+.productRow {
+    margin: 10px 0px;
+}
 .firstProductRow {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+.secondProductRow {
+    display: flex;
+    justify-content: space-evenly;
+}
+.thirdProductRow {
+    display: flex;
+    justify-content: space-evenly;
+}
+.fourthProductRow {
+    display: flex;
+    justify-content: space-evenly;
+}
+.fifthProductRow {
+    display: flex;
+    justify-content: space-evenly;
 }
