@@ -287,3 +287,7 @@ nav {
     width: 140px;
     height: 100px;
 }
+.latestProductRow {
+    display: flex;
+    justify-content: space-evenly;
+}
