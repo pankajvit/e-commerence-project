@@ -278,3 +278,12 @@ nav {
     display: flex;
     justify-content: space-evenly;
 }
+.brandslogo {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px 0px;
+}
+.brandslogo > img {
+    width: 140px;
+    height: 100px;
+}
