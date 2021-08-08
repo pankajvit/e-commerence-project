@@ -316,3 +316,13 @@ nav {
     padding-left: 10px;
 }
 /* latest news section ends here */
+
+
+/*recent view product section starts here */
+.recentProductContainer {
+    display: flex;
+    flex-direction: row;   
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
