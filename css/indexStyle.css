@@ -291,3 +291,28 @@ nav {
     display: flex;
     justify-content: space-evenly;
 }
+
+/* latest news section starts here */
+.latestNewsContainer {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    width: 100%;
+    margin-bottom: 70px;
+}
+.newsCard {
+    width: 25%;
+    /* border: 2px solid red; */
+    background-color: #C0C1C3;
+    font-family: var(--font2);
+}
+.newsCard img {
+    width: 100%;
+}
+.latestNewsCardBtn {
+    padding: 10px;
+}
+.cardText {
+    padding-left: 10px;
+}
+/* latest news section ends here */
