@@ -330,7 +330,39 @@ nav {
 /*support feature section starts here */
 .supportFeature {
     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     width: 100%;
     background-color: #D1E2E9;
     height: 200px;
+    font-family: var(--font2);
+}
+.supportCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.supportCard h6 {
+    font-size: 15px;
+}
+.supportlogo {
+    position: relative;
+    /* padding: 20px; */
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    border: 2px solid white;
+    line-height: 40px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.supportlogo span {
+    position: absolute;
+    bottom: 8px;
+    left: 10px;
+    background-color: white;
+    font-size: 2rem;
+    padding: 10px;
+    border-radius: 50%;
 }
